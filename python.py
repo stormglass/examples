@@ -1,9 +1,9 @@
 import requests
 
 response = requests.get(
-    'https://api.stormglass.io/forecast?lat=58.5&lng=17.8',
+    'https://api.stormglass.io/point?lat=58.5&lng=17.8',
     headers={
-        'Authentication-Token': 'YOUR API KEY'  # Get your at https://stormglass.io
+        'Authorization': 'YOUR API KEY'  # Get your at https://stormglass.io
     }
 )
 
