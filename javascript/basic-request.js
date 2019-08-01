@@ -1,4 +1,4 @@
-fetch("https://api.stormglass.io/point?lat=58.5&lng=17.8", {
+fetch("https://api.stormglass.io/v1/weather/point?lat=58.5&lng=17.8", {
   headers: {
     "Authorization": "YOUR API KEY"  // Get your at https://stormglass.io
   }
